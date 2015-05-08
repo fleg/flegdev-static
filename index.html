@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <title>i want to believe</title>
+  <link rel="stylesheet" href="css/main.css"/>
+  <link rel="stylesheet" href="vendor/github-js/dist/github.min.css"/>
+  <script src="vendor/underscore/underscore-min.js"></script>
+  <script src="vendor/github-js/dist/github.min.js"></script>
+</head>
+<body>
+  <div id="github-profile"></div>
+  <script>
+    Github.userActivity({
+      username: "fleg",
+      selector: "#github-profile",
+	  limit: 30
+    });
+  </script>
+</body>
+</html>
